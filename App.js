@@ -6,7 +6,7 @@ function App() {
   const [weather, setWeather] = useState(null);
   const [error, setError] = useState(null);
 
-  const API_KEY = "your_openweather_api_key";
+  const API_KEY = "eb127721141477f82c30e4cb112e4b0f";
 
   const fetchWeather = async (event) => {
     event.preventDefault();
